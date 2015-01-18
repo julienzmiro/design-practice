@@ -76,11 +76,16 @@ article {
 article header {
 	/*height: 600px;*/
 	height: auto;
-	padding-bottom: 120px;
+	/*padding-bottom: 120px;*/
 	background: #333;
 	margin-bottom: 90px;
 	background: #E73E3E;
 	color: white;
+	margin-top: 180px;
+}
+#heroHeader {
+	padding-bottom: 120px;
+	margin-top: 0;
 }
 article header h2 {
 	margin: 0;
@@ -254,7 +259,7 @@ nav {
 	padding-bottom: 0;
 	margin-bottom: 0;
 }
-.goalContainer .row strong {
+.goalContainer .row span{
 	opacity: .6;
 }
 
